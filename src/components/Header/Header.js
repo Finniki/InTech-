@@ -2,11 +2,11 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <div className={styles.logo}>
         <img src="" />
       </div>
-      <nav>
+      <nav className={styles.nav}>
         <ul className={styles.navList}>
           <li>
             <a link="#">About</a>
