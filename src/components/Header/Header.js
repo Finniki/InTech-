@@ -12,9 +12,9 @@ const Header = () => {
             <a link="#">About</a>
           </li>
           <li>
-            <div class="dropdown">
-              <p class="dropbtn">Contacts</p>
-              <div class="dropdown-content">
+            <div class={styles.dropdown}>
+              <p class={styles.dropbtn}>Contacts</p>
+              <div class={styles.dropdownContent}>
                 <ul>
                   <li>
                     <a href="#">Mail</a>
