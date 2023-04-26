@@ -14,13 +14,13 @@ const Header = () => {
             <div className={styles.dropdownContent}>
               <ul>
                 <li>
-                  <a href="#">Mail</a>
+                  <a href="#">New to tech</a>
                 </li>
                 <li>
-                  <a href="#">LinkedIn</a>
+                  <a href="#">Reveal</a>
                 </li>
                 <li>
-                  <a href="#">Twitter</a>
+                  <a href="#">Projects</a>
                 </li>
               </ul>
             </div>
