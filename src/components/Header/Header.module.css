@@ -10,7 +10,8 @@
 }
 .nav {
     width: 70%;
-    padding-top: 6px;
+    padding-top: 2px;
+    font-family: 'Sigmar', cursive;
 }
 .navList {
     min-height: 100%;
@@ -25,7 +26,7 @@
     color: #fff;
     /* padding: 16px; */
     /* font-size: 16px; */
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase ;
     border: none;
     cursor: pointer;
@@ -56,7 +57,7 @@ li {
 }
 .navList li a {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
   
   /* Style the links inside the drop-down */
