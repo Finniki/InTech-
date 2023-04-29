@@ -58,6 +58,8 @@ li {
 .navList li a {
     text-transform: uppercase;
     font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
 }
   
   /* Style the links inside the drop-down */

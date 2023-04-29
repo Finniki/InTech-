@@ -5,7 +5,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.logo}>
         <img src="" />
-        <div className={styles.name}></div>
+        <h2 className={styles.name}></h2>
       </div>
       <nav className={styles.nav}>
         <ul className={styles.navList}>
@@ -26,7 +26,7 @@ const Header = () => {
             </div>
           </div>
           <li>
-            <a link="#">About</a>
+            <a href="#">About</a>
           </li>
           <li>
             <div className={styles.dropdown}>
@@ -34,7 +34,10 @@ const Header = () => {
               <div className={styles.dropdownContent}>
                 <ul>
                   <li>
-                    <a href="#">Mail</a>
+                    <a href="#">
+                      <i class="fa-sharp fa-light fa-envelope-open"></i>
+                      Mail
+                    </a>
                   </li>
                   <li>
                     <a href="#">LinkedIn</a>
