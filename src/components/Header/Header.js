@@ -34,7 +34,10 @@ const Header = () => {
               <div className={styles.dropdownContent}>
                 <ul>
                   <li>
-                    <a href="#">Mail</a>
+                    <a href="#">
+                      <i class="fa-sharp fa-light fa-envelope-open"></i>
+                      Mail
+                    </a>
                   </li>
                   <li>
                     <a href="#">LinkedIn</a>
