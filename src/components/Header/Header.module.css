@@ -1,25 +1,25 @@
-.header {
+.navList {
     width: 60%;
     height: 3rem;
     padding: 0.4rem 1rem;
-    margin: 1rem auto;
+    margin: 2rem auto;
     background-color: #000;
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;
 }
-.nav {
-    width: 90%;
-    padding-top: 2px;
+.navLinks {
     font-family: 'Sigmar', cursive;
 }
-.navList {
+/* .navList {
+    width: 90%;
+    padding-top: 2px;
     min-height: 100%;
-    margin: 0;
+    /* margin: 0; 
     display: flex;
     justify-content: space-evenly;
     color: #fff;
-}
+} */
 /* Style the button that triggers the drop-down */
 .dropbtn {
     background-color: #000;
