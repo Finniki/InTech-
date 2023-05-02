@@ -3,12 +3,12 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
-        <img src="" />
-        <h2 className={styles.name}></h2>
-      </div>
-      <nav className={styles.nav}>
-        <ul className={styles.navList}>
+      <nav className={styles.navList}>
+        <div className={styles.logo}>
+          <img src="" />
+          <h2 className={styles.name}></h2>
+        </div>
+        <ul className={styles.navLinks}>
           <div className={styles.dropdown}>
             <p className={styles.dropbtn}>CATEGORIES</p>
             <div className={styles.dropdownContent}>
