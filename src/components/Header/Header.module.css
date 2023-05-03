@@ -2,4 +2,5 @@ header {
     margin: 0;
     height: 100vh;
     background: linear-gradient(to bottom right, #e6d1fc 0%, #ffffff 100%);
+    position: relative;
 }
