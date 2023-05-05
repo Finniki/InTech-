@@ -3,7 +3,7 @@
     display: grid;
     width: 90%;
     margin: 0 auto;
-    grid-template-columns: 30% 20%;
+    grid-template-columns: 30% 30%;
     grid-template-rows: 99% 1%;
     gap: 10px 40%;
 }
@@ -29,9 +29,9 @@
 }
 .aiImg {
     grid-column: span 1;
-    transform: translate(120px, -120px);
+    transform: translate(80px, -103px);
     /* transform: translateY(-120px); */
-    width: 80%;
-    height: 8rem !important;
+    width: 18rem !important;
+    height: 10rem !important;
 }
  
