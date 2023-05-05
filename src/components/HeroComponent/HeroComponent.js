@@ -19,7 +19,7 @@ const HeroComponent = () => {
           <img src={aiImage} className={styles.aiImg} />
         </div>
         <div className={styles.gridItem}>
-          <img src={workspaceImage} className={styles.codeImg} />
+          <img src={workspaceImage} className={styles.workspaceImg} />
         </div>
       </div>
     </div>
