@@ -13,7 +13,7 @@ const HeroComponent = () => {
           <img src={codeImage} className={styles.codeImg} />
         </div>
         <div className={styles.gridItem}>
-          <img src={gadgetImage} className={styles.codeImg} />
+          <img src={gadgetImage} className={styles.gadgetImg} />
         </div>
         <div className={styles.gridItem}>
           <img src={aiImage} className={styles.aiImg} />
