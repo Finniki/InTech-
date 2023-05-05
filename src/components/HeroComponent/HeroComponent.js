@@ -1,6 +1,6 @@
 import styles from "./HeroComponent.module.css";
 import codeImage from "../../assets/images/code.jpg";
-import aiImage from "../../assets/images/ai.jpg";
+import aiImage from "../../assets/images/ai.png";
 import gadgetImage from "../../assets/images/gadget.jpg";
 import workspaceImage from "../../assets/images/workspace.jpg";
 
