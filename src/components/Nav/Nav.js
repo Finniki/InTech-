@@ -1,4 +1,7 @@
 import styles from "./Nav.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Nav = () => {
   return (
@@ -34,15 +37,18 @@ const Nav = () => {
               <ul>
                 <li>
                   <a href="#">
-                    <i class="fa-sharp fa-light fa-envelope-open"></i>
-                    Mail
+                    <FontAwesomeIcon icon={faEnvelope} /> Mail
                   </a>
                 </li>
                 <li>
-                  <a href="#">LinkedIn</a>
+                  <a href="#">
+                    <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Twitter</a>
+                  <a href="#">
+                    <FontAwesomeIcon icon={faTwitter} /> Twitter
+                  </a>
                 </li>
               </ul>
             </div>
