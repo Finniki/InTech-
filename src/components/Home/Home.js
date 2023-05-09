@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <body>
       <Header></Header>
+      <Series />
     </body>
   );
 };
