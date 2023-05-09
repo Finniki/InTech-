@@ -15,3 +15,5 @@ const Series = () => {
     </main>
   );
 };
+
+export default Series;
