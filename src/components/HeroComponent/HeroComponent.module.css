@@ -1,7 +1,7 @@
 .imageArea {
     height: 17rem;
     display: grid;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     grid-template-columns: 30% 20%;
     grid-template-rows: 99% 1%;
@@ -17,16 +17,10 @@
 }
 .gridItem img {
     width: 100%;
-    /* height: 80%; */
+    border-radius: 6px;
+    border: 1px;
+    box-shadow: 0 0 8px #444;
 }
-/* .gridItem::before {
-    content: '';
-    position: absolute;
-    top: -10%;
-    /* background-color: rgba(255, 255, 255, 0.7); 
-    width: 150%;
-    height: 15rem;
-} */
 .aiImg {
     grid-column: span 1;
     transform: translate(80px, -103px);
