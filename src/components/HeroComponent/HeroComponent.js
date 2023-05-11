@@ -9,7 +9,7 @@ const HeroComponent = () => {
     <div className={styles.heroArea}>
       <div>
         <h1 className={styles.textArea}>INTECH</h1>
-        <p>a scrapbook of all of my interests</p>
+        <p className={styles.subTitle}>a scrapbook of all of my interests</p>
       </div>
       <div className={styles.imageArea}>
         <div className={styles.gridItem}>
