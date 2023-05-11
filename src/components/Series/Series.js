@@ -3,9 +3,17 @@ import styles from "./Series.module.css";
 const Series = () => {
   return (
     <main>
-      <section className="section cloneProjectsSection"></section>
-      <section className="section newToTechSection"></section>
-      <section className="section jsProjectsSection"></section>
+      <section
+        className={`${styles.section} ${styles.cloneProjectsSection}`}
+      ></section>
+      <section
+        className={`${styles.section} ${styles.newToTechSection}`}
+      ></section>
+      <section
+        className={`${styles.section} ${styles.jsProjectsSection}`}
+      ></section>
     </main>
   );
 };
+
+export default Series;

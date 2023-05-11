@@ -12,7 +12,7 @@ const Nav = () => {
       </div>
       <ul className={styles.navLinks}>
         <div className={styles.dropdown}>
-          <p className={styles.dropbtn}>CATEGORIES</p>
+          <p className={styles.dropbtn}>SERIES</p>
           <div className={styles.dropdownContent}>
             <ul>
               <li>
