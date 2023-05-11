@@ -7,8 +7,8 @@ import workspaceImage from "../../assets/images/workspace.jpg";
 const HeroComponent = () => {
   return (
     <div className={styles.heroArea}>
-      <div className={styles.textArea}>
-        <h1>INTECH</h1>
+      <div>
+        <h1 className={styles.textArea}>INTECH</h1>
         <p>a scrapbook of all of my interests</p>
       </div>
       <div className={styles.imageArea}>
