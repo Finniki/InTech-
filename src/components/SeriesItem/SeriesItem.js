@@ -3,7 +3,7 @@ import styles from "./SeriesItem.module.css";
 
 const SeriesItem = () => {
   return (
-    <section>
+    <section className={styles.section}>
       <div className={styles.titleDiv}>
         <h2>Title</h2>
       </div>
