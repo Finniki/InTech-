@@ -1,3 +1,4 @@
+import Series from "../Series/Series";
 import styles from "./SeriesItem.module.css";
 
 const SeriesItem = () => {
@@ -19,3 +20,5 @@ const SeriesItem = () => {
     </section>
   );
 };
+
+export default SeriesItem;
