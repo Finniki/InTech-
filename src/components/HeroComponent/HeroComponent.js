@@ -7,7 +7,10 @@ import workspaceImage from "../../assets/images/workspace.jpg";
 const HeroComponent = () => {
   return (
     <div className={styles.heroArea}>
-      <div className={styles.textArea}>INTECH</div>
+      <div className={styles.textArea}>
+        <h1>INTECH</h1>
+        <p>a scrapbook of all of my interests</p>
+      </div>
       <div className={styles.imageArea}>
         <div className={styles.gridItem}>
           <img src={codeImage} className={styles.codeImg} />
