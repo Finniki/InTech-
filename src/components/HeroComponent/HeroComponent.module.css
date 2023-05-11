@@ -12,6 +12,12 @@
     margin-top: 20%;
     font-family: 'Sigmar', cursive;
 }
+.subTitle {
+    font-size: 1.6rem;
+    margin: -35px auto 8px;
+    font-family: 'Sigmar', cursive;
+    font-weight: 400;
+}
 .gridItem {
     position: relative;
 }
