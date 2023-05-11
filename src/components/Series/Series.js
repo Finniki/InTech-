@@ -1,4 +1,5 @@
 import styles from "./Series.module.css";
+import SeriesItem from "../SeriesItem/SeriesItem";
 
 const Series = () => {
   return (
